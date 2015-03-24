@@ -15,4 +15,16 @@
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+// require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+
+echo <<< HERE
+<html>
+  <head>
+    <title>April Pooles</title>
+  </head>
+  <body bgcolor=white>
+    <img style="display: block; margin-left: auto; margin-right: auto;" src="kaf.png" alt="April Pooles">
+  </body>
+</html>
+HERE;
+
