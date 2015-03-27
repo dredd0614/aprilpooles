@@ -16,33 +16,29 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-// define('DB_NAME', 'database_name_here');
-
+define('DB_NAME', 'heroku_9a5cae228ac7222');
 /** MySQL database username */
-// define('DB_USER', 'username_here');
-
+define('DB_USER', 'b607acf1869e7a');
 /** MySQL database password */
-// define('DB_PASSWORD', 'password_here');
-
+define('DB_PASSWORD', '71b86e52');
 /** MySQL hostname */
-// define('DB_HOST', 'localhost');
-
+define('DB_HOST', 'us-cdbr-iron-east-02.cleardb.net');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
-
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-if (isset($_SERVER["DATABASE_URL"])) {
- $db = parse_url($_SERVER["DATABASE_URL"]);
- define("DB_NAME", "heroku_9a5cae228ac7222"));
- define("DB_USER", "b607acf1869e7a");
- define("DB_PASSWORD", "71b86e52");
- define("DB_HOST", $db["host"]);
-}
-else {
- die("Your heroku DATABASE_URL does not appear to be correctly specified.");
-}
+
+// if (isset($_SERVER["DATABASE_URL"])) {
+//  $db = parse_url($_SERVER["DATABASE_URL"]);
+//  define("DB_NAME", "heroku_9a5cae228ac7222"));
+//  define("DB_USER", "b607acf1869e7a");
+//  define("DB_PASSWORD", "71b86e52");
+//  define("DB_HOST", $db["host"]);
+// }
+// else {
+//  die("Your heroku DATABASE_URL does not appear to be correctly specified.");
+// }
 
 /**#@+
  * Authentication Unique Keys and Salts.
