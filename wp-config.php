@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'heroku_9a5cae228ac7222');
+define('DB_NAME', 'heroku_app_db');
 /** MySQL database username */
-define('DB_USER', 'b607acf1869e7a');
+define('DB_USER', 'h24mmxwyb52194bm');
 /** MySQL database password */
-define('DB_PASSWORD', '71b86e52');
+define('DB_PASSWORD', '7go4oeu4nb5lg70x');
 /** MySQL hostname */
-define('DB_HOST', 'us-cdbr-iron-east-02.cleardb.net');
+define('DB_HOST', 'o8pd2ktkww5mscz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
