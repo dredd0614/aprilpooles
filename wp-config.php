@@ -22,7 +22,7 @@ define('DB_USER', 'h24mmxwyb52194bm');
 /** MySQL database password */
 define('DB_PASSWORD', '7go4oeu4nb5lg70x');
 /** MySQL hostname */
-define('DB_HOST', 'o8pd2ktkww5mscz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+define('DB_HOST', 'do8pd2ktkww5mscz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
